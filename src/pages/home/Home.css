@@ -1,0 +1,58 @@
+.home {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./../../../escritorio3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  user-select: none;
+  overflow: hidden;
+}
+
+.home__animation {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(146, 146, 146, 0.2);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border: 1px solid rgba(25, 25, 25, 0.2);
+  display: grid;
+  place-content: center;
+  text-align: center;
+}
+
+.MainScreenContainer {
+  height: 4.5rem;
+  width: 100vw;
+}
+
+.bx-chevrons-down {
+  cursor: pointer;
+  color: var(--focus-color);
+  position: absolute;
+  font-size: 4rem;
+  bottom: 20px;
+  z-index: 10;
+  left: 47%;
+  right: 50%;
+  transition: opacity 0.8s ease;
+  opacity: 0;
+  animation: floatDown 2s infinite;
+}
+
+.bx-chevrons-down.visible {
+  opacity: 1;
+}
+
+@keyframes floatDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

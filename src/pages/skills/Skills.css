@@ -1,0 +1,43 @@
+.tech__grid ul {
+  margin: 0 auto;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  max-width: 1000px;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.tech__grid ul li {
+  width: max-content;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--main-color);
+  gap: 0.5rem;
+  padding: 0.8rem;
+  border-radius: 90% 10% 91% 9% / 9% 86% 14% 91%;
+  & span {
+    margin: 0 auto;
+  }
+}
+.skills__title {
+  margin-top: 3rem;
+}
+
+.logoicon {
+  width: 40px;
+  width: 40px;
+}
+
+.tech__grid li:nth-child(2) .logoicon,
+.tech__grid li:nth-child(3) .logoicon {
+  width: 60px;
+  height: 60px;
+}
+
+@media (width >= 900px) {
+  .tech__grid ul li {
+    padding: 1rem;
+  }
+}

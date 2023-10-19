@@ -1,0 +1,29 @@
+.about__figure {
+  width: 40vw * 5;
+  max-width: 400px;
+}
+
+.about__info {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.about__info--data {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+@media (width >= 900px) {
+  .about__info {
+    flex-direction: row-reverse;
+  }
+}
+
+.spikes {
+  position: relative;
+  background: #2c3e50;
+  height: 50vh;
+}

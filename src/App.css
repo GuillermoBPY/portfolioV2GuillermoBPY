@@ -1,0 +1,18 @@
+main {
+  overflow-x: hidden;
+}
+
+.section__container {
+  margin: 0 auto;
+  max-width: 1400px;
+  min-height: 100vh;
+  background-color: var(--container-color);
+  padding: 1rem;
+}
+.section__container--title {
+  margin: 1rem 0rem 4rem;
+  & span {
+    color: var(--focus-color);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}

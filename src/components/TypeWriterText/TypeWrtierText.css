@@ -1,0 +1,28 @@
+.Typewriter__wrapper,
+.Typewriter__cursor {
+  font-size: 3rem;
+  text-shadow: 5px 5px 5px rgb(25, 25, 25);
+  font-weight: bolder;
+  font-weight: 700;
+  color: var(--focus-color);
+}
+
+@media (width >= 800px) {
+  .Typewriter__wrapper,
+  .Typewriter__cursor {
+    font-size: 5rem;
+  }
+}
+
+@media (width >= 1200px) {
+  .Typewriter__wrapper,
+  .Typewriter__cursor {
+    font-size: 7rem;
+  }
+}
+@media (width >= 1400px) {
+  .Typewriter__wrapper,
+  .Typewriter__cursor {
+    font-size: 9rem;
+  }
+}

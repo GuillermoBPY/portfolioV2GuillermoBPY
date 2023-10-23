@@ -1,7 +1,7 @@
 import "./Skills.css";
 const Skills = () => {
   return (
-    <section className="section__container">
+    <section className="skills__ctn">
       <h2
         className="section__container--title skills__title"
         data-aos="fade-right"

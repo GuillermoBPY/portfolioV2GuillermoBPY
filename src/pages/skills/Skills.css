@@ -1,4 +1,12 @@
+.skills__ctn {
+  margin: 0 auto;
+  max-width: 1400px;
+  background-color: var(--container-color);
+  padding: 1rem;
+}
+
 .tech__grid {
+  margin-top: 4rem;
   min-height: 100%;
   user-select: none;
 }

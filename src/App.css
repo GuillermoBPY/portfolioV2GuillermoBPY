@@ -10,6 +10,7 @@ main {
   padding: 1rem;
 }
 .section__container--title {
+  color: var(--title-color);
   margin: 1rem 0rem 4rem;
   & span {
     color: var(--focus-color);

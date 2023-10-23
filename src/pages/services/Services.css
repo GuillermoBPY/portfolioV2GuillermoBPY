@@ -2,7 +2,7 @@
   margin: 0 auto;
   max-width: 1400px;
   background-color: var(--container-color);
-  padding: 1rem 0;
+  padding: 1rem;
 }
 
 .services__info {

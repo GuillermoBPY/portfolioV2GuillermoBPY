@@ -16,8 +16,12 @@ const Skills = () => {
           tecnológicas para materializar tus proyectos.
         </h3>
         <div className="tech__grid">
-          <ul data-aos="flip-right" data-aos-delay="600">
-            <li className="reactlogo">
+          <ul>
+            <li
+              data-aos="flip-right"
+              data-aos-delay="600"
+              className="reactlogo"
+            >
               <img
                 className="logoicon"
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
@@ -25,7 +29,11 @@ const Skills = () => {
               />
               <span>#react</span>
             </li>
-            <li className="nodejslogo">
+            <li
+              data-aos="flip-right"
+              data-aos-delay="600"
+              className="nodejslogo"
+            >
               <img
                 className="logoicon"
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
@@ -33,7 +41,11 @@ const Skills = () => {
               />
               <span>#node</span>
             </li>
-            <li className="expresslogo">
+            <li
+              data-aos="flip-right"
+              data-aos-delay="600"
+              className="expresslogo"
+            >
               <img
                 className="logoicon"
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"
@@ -41,7 +53,11 @@ const Skills = () => {
               />
               <span>#expressjs</span>
             </li>
-            <li className="javascriptlogo">
+            <li
+              data-aos="flip-right"
+              data-aos-delay="600"
+              className="javascriptlogo"
+            >
               <img
                 className="logoicon"
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
@@ -49,7 +65,11 @@ const Skills = () => {
               />
               <span>#javascript</span>
             </li>
-            <li className="html5logo">
+            <li
+              data-aos="flip-right"
+              data-aos-delay="600"
+              className="html5logo"
+            >
               <img
                 className="logoicon"
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
@@ -57,7 +77,11 @@ const Skills = () => {
               />
               <span>#html5</span>
             </li>
-            <li className="css3logo">
+            <li
+              data-aos="flip-right"
+              data-aos-delay="600"
+              className="css3logo"
+            >
               <img
                 className="logoicon"
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
@@ -65,7 +89,11 @@ const Skills = () => {
               />
               <span>#css</span>
             </li>
-            <li className="reduxlogo">
+            <li
+              data-aos="flip-right"
+              data-aos-delay="600"
+              className="reduxlogo"
+            >
               <img
                 className="logoicon"
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg"
@@ -73,7 +101,11 @@ const Skills = () => {
               />
               <span> #redux</span>
             </li>
-            <li className="gitlogo">
+            <li
+              data-aos="flip-right"
+              data-aos-delay="600"
+              className="gitlogo"
+            >
               <img
                 className="logoicon"
                 src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
@@ -81,7 +113,11 @@ const Skills = () => {
               />
               <span>#git</span>
             </li>
-            <li className="postgresqllogo">
+            <li
+              data-aos="flip-right"
+              data-aos-delay="600"
+              className="postgresqllogo"
+            >
               <img
                 className="logoicon"
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg"
@@ -89,7 +125,11 @@ const Skills = () => {
               />
               <span>#postgresql</span>
             </li>
-            <li className="postmanlogo">
+            <li
+              data-aos="flip-right"
+              data-aos-delay="600"
+              className="postmanlogo"
+            >
               <img
                 className="logoicon"
                 src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
@@ -97,7 +137,11 @@ const Skills = () => {
               />
               <span>#postman</span>
             </li>
-            <li className="jestlogo">
+            <li
+              data-aos="flip-right"
+              data-aos-delay="600"
+              className="jestlogo"
+            >
               <img
                 className="logoicon"
                 src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg"
@@ -105,7 +149,11 @@ const Skills = () => {
               />
               <span>#jest</span>
             </li>
-            <li className="techlogo">
+            <li
+              data-aos="flip-right"
+              data-aos-delay="600"
+              className="techlogo"
+            >
               <img
                 className="logoicon"
                 src="./../../../technologies/frontend.png"
@@ -113,7 +161,11 @@ const Skills = () => {
               />
               <span>#front-end</span>
             </li>
-            <li className="techlogo">
+            <li
+              data-aos="flip-right"
+              data-aos-delay="600"
+              className="techlogo"
+            >
               <img
                 className="logoicon"
                 src="./../../../technologies/backend.png"
@@ -121,7 +173,11 @@ const Skills = () => {
               />
               <span>#back-end</span>
             </li>
-            <li className="techlogo">
+            <li
+              data-aos="flip-right"
+              data-aos-delay="600"
+              className="techlogo"
+            >
               <img
                 className="logoicon"
                 src="./../../../technologies/api.png"
@@ -129,7 +185,11 @@ const Skills = () => {
               />
               <span>#restful-api</span>
             </li>
-            <li className="techlogo">
+            <li
+              data-aos="flip-right"
+              data-aos-delay="600"
+              className="techlogo"
+            >
               <img
                 className="logoicon"
                 src="./../../../technologies/fullstack.png"

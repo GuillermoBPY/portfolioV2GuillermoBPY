@@ -6,7 +6,7 @@ const Services = () => {
         className="section__container--title"
         data-aos="fade-right"
       >
-        <span>&#60;</span>Services
+        <span>&#60;</span>Servicios
         <span>&#47;&#62;</span>
       </h2>
       <div className="services__info">

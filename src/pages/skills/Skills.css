@@ -39,6 +39,10 @@
   margin-top: 3rem;
 }
 
+.skills__logos h3,
+.skills__logos span {
+  color: var(--title-color);
+}
 .logoicon {
   width: 40px;
   width: 40px;

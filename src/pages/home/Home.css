@@ -27,7 +27,7 @@
   width: 100vw;
 }
 
-.bx-chevrons-down {
+.homearrow {
   cursor: pointer;
   color: var(--focus-color);
   position: absolute;
@@ -41,7 +41,7 @@
   animation: floatDown 2s infinite;
 }
 
-.bx-chevrons-down.visible {
+.homearrow.visible {
   opacity: 1;
 }
 

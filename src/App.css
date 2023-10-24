@@ -17,3 +17,76 @@ main {
     font-family: Arial, Helvetica, sans-serif;
   }
 }
+
+.whatsapp-info,
+.pulse {
+  display: grid;
+  place-content: center;
+  text-align: center;
+  color: #fff;
+  background: var(--whatsapp-color);
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  font-size: 3rem;
+  z-index: 99;
+  border-radius: 90%;
+  height: 70px;
+  width: 70px;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(0.1);
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    -webkit-transform: scale(2);
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale(0.1);
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    -webkit-transform: scale(2);
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+.pulse:nth-child(1) {
+  -webkit-animation: pulse 2s infinite;
+  animation: pulse 2s infinite;
+}
+
+.pulse:nth-child(2) {
+  -webkit-animation: pulse 2s infinite 0.3s;
+  animation: pulse 2s infinite 0.3s;
+}
+
+.pulse:nth-child(3) {
+  -webkit-animation: pulse 2s infinite 0.6s;
+  animation: pulse 2s infinite 0.6s;
+}
+
+.whatsapp {
+  display: grid;
+  place-content: center;
+}

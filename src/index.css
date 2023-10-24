@@ -9,6 +9,7 @@
   --container-color: #ffffff;
   --body-color: #fbfdff;
   --focus-color: #dc143c;
+  --whatsapp-color: #25d366;
 }
 
 * {
@@ -25,6 +26,7 @@ body.darkMode {
   --border-color: #2a3b47;
   --container-color: #212e36;
   --body-color: #34393c;
+  --whatsapp-color: #075e54;
 }
 
 body {
@@ -39,4 +41,31 @@ img {
 
 ul {
   list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: var(--main-color) #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--main-color);
+  border-radius: 10px;
+  border: 3px solid #ffffff;
 }

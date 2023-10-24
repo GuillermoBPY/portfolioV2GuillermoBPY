@@ -1,7 +1,7 @@
 .MainScreen .scramble-container {
   font-weight: 100;
   font-size: 1.8rem;
-  color: var(--body-color);
+  color: white;
   padding-right: 1rem;
 }
 .MainScreen .dud {

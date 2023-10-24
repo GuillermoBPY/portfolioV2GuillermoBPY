@@ -1,6 +1,6 @@
 .contact {
   overflow: hidden;
-  padding: 0 1rem;
+  padding: 1rem;
 }
 
 .contacth2 {
@@ -16,7 +16,7 @@
 .contact-wrapper {
   margin: 0 auto;
   max-width: 1000px;
-  box-shadow: 0 0 20px 0 var(--title-color);
+  box-shadow: 0 0 10px 0 var(--title-color);
   border: 2px solid var(--main-color);
 }
 

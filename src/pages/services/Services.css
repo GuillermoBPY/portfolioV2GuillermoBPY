@@ -22,7 +22,7 @@
     color: var(--main-color);
   }
   & p {
-    color: var(--light-title-color);
+    color: var(--text-color);
   }
 }
 

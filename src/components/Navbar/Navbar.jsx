@@ -3,6 +3,7 @@ import { Link } from "react-scroll";
 import classNames from "classnames";
 import "./Navbar.css";
 import DarkMode from "./DarkMode";
+import ChangeLanguage from "./ChangeLanguage";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -94,6 +95,7 @@ const Navbar = () => {
               </Link>
             </li>
           </ul>
+          <ChangeLanguage />
           <DarkMode />
           <button
             onClick={handleMenuToggle}

@@ -1,50 +1,46 @@
-import { Component } from "react";
+import { useState, useEffect } from "react";
 import TextScramble from "react-textscramble";
 import "./ScrambleText.css";
+import { useTranslation } from "react-i18next";
+import PropTypes from "prop-types";
 
-export default class MainScreen extends Component {
-  constructor() {
-    super();
+const MainScreen = ({ setshowArrow }) => {
+  const [shouldRender, setShouldRender] = useState(false);
+  // eslint-disable-next-line no-unused-vars
+  const { t, i18n } = useTranslation("global");
 
-    this.state = {
-      shouldRender: false,
-    };
-  }
-
-  componentDidMount() {
-    setTimeout(() => {
-      this.setState({ shouldRender: true });
-      // eslint-disable-next-line react/prop-types
-      this.props.setshowArrow(true);
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShouldRender(true);
+      setshowArrow(true);
     }, 4000);
+
+    return () => clearTimeout(timer);
+  }, [setshowArrow]);
+
+  if (!shouldRender) {
+    return null;
   }
 
-  render() {
-    if (!this.state.shouldRender) {
-      return null;
-    }
+  const phrases = t("home.scrambleText");
 
-    let phrases = [
-      "Desarrollador Full Stack.",
-      "Transformo ideas en realidad digital.",
-      "Desarrollador Front-end.",
-      "Explora mi portfolio.",
-      "Desarrollador Back-end.",
-      "Descubre mis proyectos destacados.",
-      "¡Te invito a ser parte de mi mundo digital!",
-    ];
-    let freezeDuration = 1600;
+  const freezeDuration = 1600;
 
-    return (
-      <div className="MainScreen">
-        <div className="scramble-container">
-          <TextScramble
-            phrases={phrases}
-            freezeDuration={freezeDuration}
-            isInfiniteLoop={true}
-          />
-        </div>
+  return (
+    <div className="MainScreen">
+      <div className="scramble-container">
+        <TextScramble
+          phrases={phrases}
+          freezeDuration={freezeDuration}
+          isInfiniteLoop={true}
+        />
       </div>
-    );
-  }
-}
+    </div>
+  );
+};
+
+MainScreen.propTypes = {
+  setshowArrow: PropTypes.func.isRequired,
+};
+
+export default MainScreen;

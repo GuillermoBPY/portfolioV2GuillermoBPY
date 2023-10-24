@@ -2,8 +2,11 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./About.css";
+import { useTranslation } from "react-i18next";
 
 const About = () => {
+  // eslint-disable-next-line no-unused-vars
+  const { t, i18n } = useTranslation("global");
   useEffect(() => {
     AOS.init();
   }, []);
@@ -14,7 +17,8 @@ const About = () => {
         data-aos-delay="500"
         data-aos="fade-right"
       >
-        <span>&#60;</span>Sobre Mí
+        <span>&#60;</span>
+        {t("about.title")}
         <span>&#47;&#62;</span>
       </h2>
       <div
@@ -30,31 +34,20 @@ const About = () => {
           data-aos-delay="500"
           data-aos="fade-left"
         >
-          <h1>¡Hola!, Soy Guillermo Benitez</h1>
+          <h1>{t("about.salutation")}</h1>
+          <p>{t("about.paragrah1")}</p>
           <p>
-            Soy un desarrollador full stack centrado en la
-            creación de experiencias digitales innovadoras.
+            <p>{t("about.paragrah2")}</p>
           </p>
           <p>
-            En mi portfolio, te invito a explorar mis
-            destacadas habilidades y proyectos en el
-            desarrollo web, que incluyen aplicaciones
-            personalizadas, sistemas de gestión de usuarios
-            y sitios de comercio electrónico.
+            <p>{t("about.paragrah3")}</p>
           </p>
           <p>
-            Trabajo en equipo para diseñar soluciones
-            creativas y efectivas.
+            <p>{t("about.paragrah4")}</p>
           </p>
           <p>
-            Poseo un sólido dominio de tecnologías clave
-            como HTML5, CSS3, JavaScript, así como
-            frameworks de vanguardia como React y entornos
-            de ejecución como Node.js. Estas herramientas me
-            permiten crear aplicaciones web dinámicas y
-            altamente escalables.
+            <p>{t("about.paragrah5")}</p>
           </p>
-          <p>¡Te doy la bienvenida a mi portfolio!</p>
         </article>
       </div>
     </section>

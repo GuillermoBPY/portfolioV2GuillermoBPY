@@ -1,5 +1,6 @@
 .services {
   margin: 0 auto;
+  margin-top: -1rem;
   max-width: 1400px;
   background-color: var(--container-color);
   padding: 1rem;

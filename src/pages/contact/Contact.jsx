@@ -105,7 +105,7 @@ const Contact = () => {
           </p>
           <Link to="home" smooth={true} duration={500}>
             <figure className="contactlogo">
-              <img src="./../../../img/logo.png" alt="" />
+              <img src="./../../../logo.png" alt="" />
             </figure>
           </Link>
         </div>

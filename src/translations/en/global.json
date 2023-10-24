@@ -1,0 +1,23 @@
+{
+  "home": {
+    "scrambleText": [
+      "Full Stack Developer.",
+      "I turn ideas into digital reality.",
+      "Front-end Developer.",
+      "Explore my portfolio.",
+      "Back-end Developer.",
+      "Discover my featured projects.",
+      "I invite you to be part of my digital world!"
+    ]
+  },
+
+  "about": {
+    "title": "About Me",
+    "salutation": "Hello! I'm Guillermo Benitez",
+    "paragrah1": "I'm a full-stack developer focused on creating innovative digital experiences.",
+    "paragrah2": "In my portfolio, I invite you to explore my notable skills and projects in web development, including custom applications, user management systems, and e-commerce sites.",
+    "paragrah3": "I work as part of a team to design creative and effective solutions.",
+    "paragrah4": "I have a strong command of key technologies such as HTML5, CSS3, JavaScript, as well as cutting-edge frameworks like React and runtime environments like Node.js. These tools enable me to create dynamic and highly scalable web applications.",
+    "paragrah5": "Welcome to my portfolio!"
+  }
+}

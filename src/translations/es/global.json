@@ -1,0 +1,23 @@
+{
+  "home": {
+    "scrambleText": [
+      "Desarrollador Full Stack.",
+      "Transformo ideas en realidad digital.",
+      "Desarrollador Front-end.",
+      "Explora mi portfolio.",
+      "Desarrollador Back-end.",
+      "Descubre mis proyectos destacados.",
+      "¡Te invito a ser parte de mi mundo digital!"
+    ]
+  },
+
+  "about": {
+    "title": "Sobre Mí",
+    "salutation": "¡Hola!, Soy Guillermo Benitez",
+    "paragrah1": "Soy un desarrollador full stack centrado en la creación de experiencias digitales innovadoras.",
+    "paragrah2": "En mi portfolio, te invito a explorar mis destacadas habilidades y proyectos en el desarrollo web, que incluyen aplicaciones personalizadas, sistemas de gestión de usuarios y sitios de comercio electrónico.",
+    "paragrah3": "Trabajo en equipo para diseñar soluciones creativas y efectivas.",
+    "paragrah4": "Poseo un sólido dominio de tecnologías clave como HTML5, CSS3, JavaScript, así como frameworks de vanguardia como React y entornos de ejecución como Node.js. Estas herramientas me permiten crear aplicaciones web dinámicas y altamente escalables.",
+    "paragrah5": "¡Te doy la bienvenida a mi portfolio!"
+  }
+}

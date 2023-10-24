@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import "./App.css";
 import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
@@ -7,10 +8,17 @@ import Home from "./pages/home/Home";
 import Portfolio from "./pages/portfolio/Portfolio";
 import Services from "./pages/services/Services";
 import Skills from "./pages/skills/Skills";
+import Loading from "./components/Loading/Loading";
 
 function App() {
+  const [isLoading, setisLoading] = useState(true);
+  useEffect(() => {
+    setisLoading(false);
+  }, []);
+
   return (
     <main className="main">
+      {isLoading && <Loading />}
       <Navbar />
       <Home />
       <About />
